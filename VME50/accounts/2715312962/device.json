@@ -1,0 +1,38 @@
+{
+    "product": "AX1092",
+    "device": "Bmobile_AX1092_MV03",
+    "board": "Bmobile_AX1092_MV03",
+    "brand": "BMobile",
+    "model": "AX1092",
+    "wifi_ssid": "TP-LINK_1CG5QT",
+    "android_id": "5887208",
+    "boot_id": "d13f89dd-bf68-6fbc-8950-6fb748c6e15e",
+    "proc_version": "Linux version 4.1.12-F33qtNBJ (android-build@f686fbc89506.source.android.com)",
+    "mac_address": "D1:3F:89:DD:BF:68",
+    "ip_address": [
+        188,
+        221,
+        6,
+        240
+    ],
+    "imei": "601744968343784",
+    "incremental": "1854109712",
+    "protocol": 2,
+    "display": "5887208",
+    "finger_print": "BMobile/AX1092/Bmobile_AX1092_MV03:10/5887208/1854109712:user/release-keys",
+    "baseband": "",
+    "sim": "T-Mobile",
+    "os_type": "android",
+    "bootloader": "U-boot",
+    "wifi_bssid": "D1:3F:89:DD:BF:68",
+    "apn": "wifi",
+    "version": {
+        "incremental": "1854109712",
+        "release": "10",
+        "codename": "REL",
+        "sdk": 29
+    },
+    "imsi_md5": "424b490aae7e00dfe217ab92eec17b99",
+    "vendor_name": "BMobile",
+    "vendor_os_name": "android"
+}
