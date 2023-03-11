@@ -1,8 +1,6 @@
-from nonebot import on_keyword
-from nonebot.adapters.onebot.v11 import Message
+from .greet import *
+from .echo import *
 
-word=on_keyword({"呼叫MOYA"})
+greet()# 问候语
 
-@word.handle()
-async def _():
-    await word.finish(Message("在的，我的主人"))
+echo()# @bot的回答
