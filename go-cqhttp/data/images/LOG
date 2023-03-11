@@ -1,0 +1,79 @@
+=============== Mar 12, 2023 (CST) ===============
+02:20:15.702241 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:20:15.887931 db@open opening
+02:20:15.888679 version@stat F·[] S·0B[] Sc·[]
+02:20:15.943177 db@janitor F·2 G·0
+02:20:15.943177 db@open done T·55.2465ms
+=============== Mar 12, 2023 (CST) ===============
+02:20:51.990204 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:20:51.991203 version@stat F·[] S·0B[] Sc·[]
+02:20:51.992201 db@open opening
+02:20:51.992201 journal@recovery F·1
+02:20:51.992201 journal@recovery recovering @1
+02:20:51.993198 version@stat F·[] S·0B[] Sc·[]
+02:20:52.167886 db@janitor F·2 G·0
+02:20:52.167886 db@open done T·175.6848ms
+=============== Mar 12, 2023 (CST) ===============
+02:22:55.857813 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:22:55.861215 version@stat F·[] S·0B[] Sc·[]
+02:22:55.861215 db@open opening
+02:22:55.861215 journal@recovery F·1
+02:22:55.862206 journal@recovery recovering @2
+02:22:55.862206 version@stat F·[] S·0B[] Sc·[]
+02:22:56.121357 db@janitor F·2 G·0
+02:22:56.121357 db@open done T·260.1424ms
+=============== Mar 12, 2023 (CST) ===============
+02:34:20.955447 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:34:20.957543 version@stat F·[] S·0B[] Sc·[]
+02:34:20.958054 db@open opening
+02:34:20.958054 journal@recovery F·1
+02:34:20.958054 journal@recovery recovering @4
+02:34:20.959108 version@stat F·[] S·0B[] Sc·[]
+02:34:21.214330 db@janitor F·2 G·0
+02:34:21.214330 db@open done T·256.2753ms
+=============== Mar 12, 2023 (CST) ===============
+02:51:55.438521 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:51:55.439521 version@stat F·[] S·0B[] Sc·[]
+02:51:55.439521 db@open opening
+02:51:55.440518 journal@recovery F·1
+02:51:55.440518 journal@recovery recovering @6
+02:51:55.441516 version@stat F·[] S·0B[] Sc·[]
+02:51:55.584888 db@janitor F·2 G·0
+02:51:55.584888 db@open done T·145.3675ms
+=============== Mar 12, 2023 (CST) ===============
+02:54:33.067573 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+02:54:33.070280 version@stat F·[] S·0B[] Sc·[]
+02:54:33.070280 db@open opening
+02:54:33.070808 journal@recovery F·1
+02:54:33.071313 journal@recovery recovering @8
+02:54:33.073055 version@stat F·[] S·0B[] Sc·[]
+02:54:33.229504 db@janitor F·2 G·0
+02:54:33.229504 db@open done T·159.2248ms
+=============== Mar 12, 2023 (CST) ===============
+03:39:00.719773 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:39:00.724084 version@stat F·[] S·0B[] Sc·[]
+03:39:00.724633 db@open opening
+03:39:00.725187 journal@recovery F·1
+03:39:00.725695 journal@recovery recovering @10
+03:39:00.726342 version@stat F·[] S·0B[] Sc·[]
+03:39:00.882510 db@janitor F·2 G·0
+03:39:00.882510 db@open done T·157.8766ms
+=============== Mar 12, 2023 (CST) ===============
+03:45:06.370810 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+03:45:06.373198 version@stat F·[] S·0B[] Sc·[]
+03:45:06.373198 db@open opening
+03:45:06.373198 journal@recovery F·1
+03:45:06.373198 journal@recovery recovering @12
+03:45:06.374691 version@stat F·[] S·0B[] Sc·[]
+03:45:06.602579 db@janitor F·2 G·0
+03:45:06.602579 db@open done T·229.3805ms
+=============== Mar 12, 2023 (CST) ===============
+04:06:47.318776 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+04:06:47.320861 version@stat F·[] S·0B[] Sc·[]
+04:06:47.321399 db@open opening
+04:06:47.322498 journal@recovery F·1
+04:06:47.322498 journal@recovery recovering @14
+04:06:47.697237 memdb@flush created L0@16 N·3 S·485B "'\xba'..\xf2.\xff,v2":"\x8bR\xb6..#\fX,v3"
+04:06:47.698193 version@stat F·[1] S·485B[485B] Sc·[0.25]
+04:06:47.835715 db@janitor F·3 G·0
+04:06:47.835715 db@open done T·513.7525ms
