@@ -87,3 +87,42 @@
 04:06:48.259711 table@remove removed @16
 04:06:48.259904 table@remove removed @13
 04:06:48.260408 table@remove removed @8
+=============== Mar 12, 2023 (CST) ===============
+11:31:27.398678 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:31:27.414563 version@stat F·[0 1] S·4KiB[0B 4KiB] Sc·[0.00 0.00]
+11:31:27.414563 db@open opening
+11:31:27.415075 journal@recovery F·1
+11:31:27.415075 journal@recovery recovering @20
+11:31:27.462012 memdb@flush created L0@23 N·1 S·407B "O\xacOP,v57":"O\xacOP,v57"
+11:31:27.462528 version@stat F·[1 1] S·5KiB[407B 4KiB] Sc·[0.25 0.00]
+11:31:27.610372 db@janitor F·5 G·1
+11:31:27.610372 db@janitor removing table-19
+11:31:27.610893 db@open done T·196.3299ms
+14:25:13.542739 memdb@flush N·160 S·31KiB
+14:25:13.593997 memdb@flush created L0@27 N·160 S·21KiB "\x01\x7f\x14\xd1,v79":"\xff\xdc\b\x97,v103"
+14:25:13.594566 version@stat F·[2 1] S·26KiB[21KiB 4KiB] Sc·[0.50 0.00]
+14:25:13.638832 memdb@flush committed F·1 T·95.5419ms
+14:25:13.639435 journal@remove removed @24
+15:15:05.751822 memdb@flush N·170 S·31KiB
+15:15:06.868000 memdb@flush created L0@29 N·170 S·20KiB "\x00S\x97?,v269":"\xff2\xe1N,v357"
+15:15:06.868000 version@stat F·[3 1] S·47KiB[42KiB 4KiB] Sc·[0.75 0.00]
+15:15:06.945934 memdb@flush committed F·1 T·1.1940425s
+15:15:06.946566 journal@remove removed @26
+=============== Mar 12, 2023 (CST) ===============
+15:16:07.059800 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:16:07.060348 version@stat F·[3 1] S·47KiB[42KiB 4KiB] Sc·[0.75 0.00]
+15:16:07.060348 db@open opening
+15:16:07.060965 journal@recovery F·1
+15:16:07.061045 journal@recovery recovering @28
+15:16:07.095617 memdb@flush created L0@30 N·8 S·1KiB "%\x95\xc1\xc8,v390":"\xd3rv\x94,v391"
+15:16:07.096245 version@stat F·[4 1] S·48KiB[43KiB 4KiB] Sc·[1.00 0.00]
+15:16:07.276938 db@janitor F·7 G·0
+15:16:07.276938 db@open done T·216.5894ms
+15:16:07.277461 table@compaction L0·4 -> L1·1 S·48KiB Q·397
+15:16:07.368394 table@build created L1@33 N·391 S·49KiB "\x00S\x97?,v269":"\xff\xdc\b\x97,v103"
+15:16:07.368909 version@stat F·[0 1] S·49KiB[0B 49KiB] Sc·[0.00 0.00]
+15:16:07.413638 table@compaction committed F-4 S+1KiB Ke·0 D·0 T·136.1774ms
+15:16:07.414895 table@remove removed @29
+15:16:07.415434 table@remove removed @27
+15:16:07.415990 table@remove removed @23
+15:16:07.416538 table@remove removed @22

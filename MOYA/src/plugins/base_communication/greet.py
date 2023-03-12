@@ -1,5 +1,5 @@
 from nonebot import on_keyword
-from nonebot.adapters.onebot.v11 import Message,GroupMessageEvent
+from nonebot.adapters.onebot.v11 import Message,GroupMessageEvent, MessageSegment
 
 def greet():
     def _checker(event:GroupMessageEvent) ->bool :#过滤at bot的信息
@@ -66,7 +66,7 @@ def greet():
             await morning.finish(Message("下午好先生"))
 
     atGood_afternoon=on_keyword({"下午好"},rule=_checker)
-    @atGood_noon.handle()
+    @atGood_afternoon.handle()
     async def _(event: GroupMessageEvent):#空名函数，用于异步
         if(event.user_id==3132225629):
             await atGood_afternoon.finish(Message("下午好主人"))
