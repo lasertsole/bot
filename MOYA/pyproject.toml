@@ -9,6 +9,6 @@ requires-python = ">=3.8, <4.0"
 adapters = [
     { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
 ]
-plugins = ["haruka_bot"]
+plugins = ["haruka_bot", "nonebot_plugin_gpt3", "nonebot_plugin_memes", "nonebot_plugin_no_repeat", "nonebot-plugin-withdraw", "nonebot_plugin_withdraw", "nonebot_plugin_learning_chat"]
 plugin_dirs = ["src/plugins"]
 builtin_plugins = []
