@@ -1,0 +1,2 @@
+[2023-03-22 01:31:53] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:64111->127.0.0.1:12345: wsarecv: An existing connection was forcibly closed by the remote host. 
+[2023-03-22 01:31:57] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:64111->127.0.0.1:12345: use of closed network connection 

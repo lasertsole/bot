@@ -280,3 +280,27 @@
 20:33:31.900307 version@stat F·[2 1] S·28KiB[3KiB 25KiB] Sc·[0.50 0.00]
 20:33:32.146628 db@janitor F·5 G·0
 20:33:32.147134 db@open done T·304.556ms
+22:20:53.604143 memdb@flush N·19 S·3KiB
+22:20:53.630152 memdb@flush created L0@78 N·19 S·1KiB "\x04\xd1Q..\xd6$\xba,v360":"\xea\xe6\x9e..\x05\xcc\xfe,v367"
+22:20:53.630152 version@stat F·[3 1] S·30KiB[5KiB 25KiB] Sc·[0.75 0.00]
+22:20:53.686270 memdb@flush committed F·1 T·82.1261ms
+22:20:53.687116 journal@remove removed @75
+23:26:46.905748 memdb@flush N·19 S·3KiB
+23:26:46.937821 memdb@flush created L0@80 N·19 S·1KiB "\x05\x1c\x1d..<\x1f8,v375":"\xf8\xdc\xdf..\xe2\x94Y,v385"
+23:26:46.937821 version@stat F·[4 1] S·32KiB[6KiB 25KiB] Sc·[1.00 0.00]
+23:26:46.991442 memdb@flush committed F·1 T·85.6942ms
+23:26:46.991952 journal@remove removed @77
+23:26:47.010554 table@compaction L0·4 -> L1·1 S·32KiB Q·388
+23:26:47.148247 table@build created L1@81 N·286 S·30KiB "\x00\xdaF..\x9f\x89\x02,v22":"\xff\x92[..ג\xec,v231"
+23:26:47.148247 version@stat F·[0 1] S·30KiB[0B 30KiB] Sc·[0.00 0.00]
+23:26:47.196056 table@compaction committed F-4 S-1KiB Ke·0 D·16 T·185.5027ms
+23:26:47.211911 table@remove removed @80
+23:26:47.212032 table@remove removed @78
+23:26:47.212548 table@remove removed @73
+23:26:47.231201 table@remove removed @71
+=============== Mar 22, 2023 (CST) ===============
+00:13:12.665785 memdb@flush N·19 S·3KiB
+00:13:13.012457 memdb@flush created L0@83 N·19 S·2KiB "\x03cv..\x06^\xc7,v393":"\xf2\xc6V..\x9e\xcf\x0e,v399"
+00:13:13.012457 version@stat F·[1 1] S·32KiB[2KiB 30KiB] Sc·[0.25 0.00]
+00:13:13.079473 memdb@flush committed F·1 T·413.688ms
+00:13:13.079913 journal@remove removed @79

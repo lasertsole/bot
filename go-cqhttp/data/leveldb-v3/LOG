@@ -239,3 +239,8 @@
 20:33:32.413466 version@stat F·[2 1] S·188KiB[28KiB 159KiB] Sc·[0.50 0.00]
 20:33:32.597579 db@janitor F·5 G·0
 20:33:32.597579 db@open done T·239.9387ms
+23:27:21.181026 memdb@flush N·172 S·31KiB
+23:27:21.318476 memdb@flush created L0@66 N·172 S·20KiB "\x00\xc2I\xe4,v1549":"\xfe{\xdc+,v1407"
+23:27:21.318476 version@stat F·[3 1] S·209KiB[49KiB 159KiB] Sc·[0.75 0.00]
+23:27:21.362780 memdb@flush committed F·1 T·181.7343ms
+23:27:21.362879 journal@remove removed @63
