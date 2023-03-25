@@ -1,0 +1,16 @@
+[2023-03-25 12:29:47] [WARNING]: 恢复会话失败: exchange_emp failed: 40 , 尝试使用正常流程登录. 
+[2023-03-25 12:31:54] [FATAL]: 二维码过期 
+[2023-03-25 12:33:47] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-03-25 12:33:47] [WARNING]: 将在 5秒 后继续. 
+[2023-03-25 12:34:13] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-03-25 12:34:17] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:12345/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:12345: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-25 12:34:22] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:12345/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:12345: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-25 12:34:27] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:12345/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:12345: connectex: No connection could be made because the target machine actively refused it. 
+[2023-03-25 14:05:45] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.0.104:49469->183.47.117.157:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-03-25 14:06:06] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 42.81.192.158:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-03-25 14:06:06] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 42.81.192.158:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-03-25 14:06:06] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-03-25 14:06:10] [WARNING]: 尝试重连... 
+[2023-03-25 14:06:10] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 113.96.18.253:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-03-25 14:06:10] [WARNING]: 快速重连失败: dial tcp error: dial tcp 113.96.18.253:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-03-25 14:06:10] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
